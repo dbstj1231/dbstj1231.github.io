@@ -82,7 +82,10 @@ address.
   <strong>장소:</strong>
   {{page.address}}
   (
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>
+  <a href="https://www.bloomvista.co.kr/">홈페이지</a>
+  )
+  (
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">지도</a>
   )
 </p>
 {% elsif online == "true_public" %}
