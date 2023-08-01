@@ -183,6 +183,9 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
+<p>
+<a href="files/schedule.pdf">일정표</a>
+</p>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
