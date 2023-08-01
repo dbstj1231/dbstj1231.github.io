@@ -25,24 +25,8 @@
           {% elsif online == "true_private" %}
           <p>Online</p>
           {% endif %}
-          <p>{{page.humandate}}</p>
-          <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
-        </div>
-        <div class="col-md-6">
-          <p>
-          <strong>Instructors:</strong>
-          {% if page.instructor %}
-          {{page.instructor | join: ', ' %}}
-          {% else %}
-          to be announced.
-          {% endif %}
-          </p>
-          {% if page.helper %}
-          <p>
-          <strong>Helpers:</strong>
-          {{page.helper | join: ', ' %}}
-          </p>
-          {% endif %}
+          <p>일시 : {{page.humandate}}</p>
+          <p>장소 : {{page.address}}</p>
         </div>
       </div>
     </div>
