@@ -82,7 +82,7 @@ address.
   <strong>장소:</strong>
   {{page.address}}
   (
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>
   )
 </p>
 {% elsif online == "true_public" %}
